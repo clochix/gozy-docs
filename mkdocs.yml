@@ -41,6 +41,7 @@ nav:
     - Send and Receive E-mails in Development: howTos/dev/sendmail.md
     - Our Front-End Git Flow: references/git-flow.md
     - Technical introduction to the Cozy platform: references/tech-intro.md
+    - Standalone run a connector from an external app: howTos/dev/runConnector.md
   - Synchronize:
     - Install Cozy Drive on GNU/Linux: howTos/sync/linux.md
 - Libraries:

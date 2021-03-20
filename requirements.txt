@@ -5,7 +5,7 @@ Click==7.0
 colorclass==2.2.0
 docopt==0.6.2
 idna==2.7
-Jinja2==2.10
+Jinja2==2.11.3
 jsx-lexer==0.0.6
 livereload==2.5.2
 Markdown==3.2

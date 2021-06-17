@@ -80,7 +80,7 @@ yarn start
 ```
 
 This command will run  `webpack` in a watching mode with a server (webpack-dev-server) to serve
-application assets. Your application will be available at <http://mycozyapp.cozy.tools:8080>.
+application assets. Your application will be available at <http://mycozyapp.cozy.localhost:8080>.
 Password is `cozy`. In this mode HMR (Hot Module Replacement) is available.
 
 <div align="center">
@@ -91,11 +91,11 @@ Password is `cozy`. In this mode HMR (Hot Module Replacement) is available.
 
 ## Going Further
 
-### What is `cozy.tools` ?
+### What is `cozy.localhost` ?
 
-You may see in our documentation that we use `*.cozy.tools` as domain for the local Cozy. Since Cozy uses subdomains to serve the applications, we can't use directly `localhost` as it.
+You may see in our documentation that we use `*.cozy.localhost` as domain for the local Cozy. Since Cozy uses subdomains to serve the applications, we can't use directly `localhost` as it.
 
-We have just parameterized this `*.cozy.tools` domain to always redirect to `127.0.0.1`, your local computer address.
+We have just parameterized this `*.cozy.localhost` domain to always redirect to `127.0.0.1`, your local computer address.
 With that, no need to configure your environment to set extra local hosts for development anymore.
 
 ### How the application works?
